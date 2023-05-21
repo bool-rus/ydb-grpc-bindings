@@ -2,7 +2,7 @@
 name = "ydb-grpc-bindings"
 version = "0.0.1"
 edition = "2021"
-license = "Apache 2.0"
+license = "Apache-2.0"
 keywords = ["database","db","ydb"]
 description = "Rust grpc bindings for YDB (unofficial)"
 repository = "https://github.com/bool-rus/ydb-grpc-bindings"
