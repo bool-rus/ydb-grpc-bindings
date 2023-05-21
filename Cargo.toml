@@ -2,9 +2,17 @@
 name = "ydb-grpc-bindings"
 version = "0.0.1"
 edition = "2021"
-license = "MIT"
-keywords = ["nas", "synology", "xpenology"]
-description = "Rust API client for synology/xpenology nas"
+license = "Apache 2.0"
+keywords = ["database","db","ydb"]
+description = "Rust grpc bindings for YDB (unofficial)"
 repository = "https://github.com/bool-rus/ydb-grpc-bindings"
 
+[lib]
+doctest = false 
+
 [dependencies]
+tonic = { versoin = "0.9", features = ["tls-roots"] }
+prost = "0.11.2"
+
+[build-dependencies]
+tonic-build = "0.9"
