@@ -1,0 +1,10 @@
+[package]
+name = "ydb-grpc-bindings"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+keywords = ["nas", "synology", "xpenology"]
+description = "Rust API client for synology/xpenology nas"
+repository = "https://github.com/bool-rus/ydb-grpc-bindings"
+
+[dependencies]
